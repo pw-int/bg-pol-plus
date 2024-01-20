@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiteGames</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="index">
+    <main class="main">
+        <!-- Main section -->
+        <section class="banner">
+            <!-- Header -->
+            <header>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <ul class="navbar-nav d-flex flex-row justify-content-between align-items-center w-100">
+                            <li>
+                                <a class="navbar-brand me-0" href="index.html">
+                                    <img src="img/logo-plus.svg" class="navbar-brand-img" alt="Plus">
+                                </a>
+                            </li>
+            
+                            <li>
+                                <a class="navbar-brand me-0" href="index.html">
+                                    <img src="img/logo-bitegames.svg" class="navbar-brand-img-lg" alt="Bitegames">
+                                </a>
+                            </li>
+            
+                            <li class="mw-64"></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <img src="img/hero-bg.png" alt="Banner image" class="banner-bg">
+        </section>
+        <section class="hero pb-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-12">
+                        <p class="fw-bold mb-2">Playwing LTD<br> Podaj numer PIN otrzymany SMSem:</p>
+                        <form method="get" action="success.html" class="needs-validation" novalidate>
+                            <input type="text" pattern="[0-9]*" class="form-control text-center mb-3" id="inputPin" placeholder="xxxx" minlength="4" maxlength="4" required>
+
+                            <div class="d-grid mb-1">
+                                <button type="submit" class="btn btn-success join-button">Dalej</button>
+                            </div>
+
+                            <p class="text-center mb-4">Naciśnięcie przycisku „Zamawiam i płacę“ oznacza zamówienie usługi, która zostanie wykonana niezwłocznie.</p>
+
+                            <div class="checkbox d-flex mb-3">
+                                <input class="form-check-input" type="checkbox" id="invalidCheckOffers" required>
+
+                                <label class="form-check-label p-0 ms-2" for="invalidCheckOffers">
+                                Akceptuję regulamini usług. Zgadzam się na wykonanie „Usługi dostępowej“ już teraz. Wiem, że wykonaniu
+                            Zapoznaj się z <a href="terms.html" class="btn-link text-success">Regulaminem Usługi dostępowej</a> i <a href="terms.html" class="btn-link text-success">Regulaminem Usługi</a>
+                            </label>
+                            </div>
+                        </form>
+
+                        <p>Usługa dostępowa umożliwiająca skorzystanie z usługi <span class="text-success">Bitegames</span></p>
+                        <p>Cena usługi dostępowej: (Za usługę <span class="text-success">Bitegames</span> nie ma dodatkowej opłaty)
+                        </p>
+                        <p>Kwota do zapłaty: <span class="text-success">14,99 zt</span>
+                        </p>
+                        <p>
+                            Sposób zapłaty: Opłata będzie naliczana raz w tygodniuUsługę możesz dezaktywować poprzez: <span class="text-success text-uppercase">STOP BITEGAMES</span> na 80425 (0 zł).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-12 text-center">
+                        <ul class="list-inline mb-3">
+                            <li class="list-inline-item">
+                                <a href="external/contact.html" class="btn-link">Kontakt</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="external/faq.html" class="btn-link">FAQ</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="external/terms.html" class="btn-link">Zasady | Warunki</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="imprint.html" class="btn-link">Wydawca</a>
+                            </li>
+                        </ul>
+                        <p>© Bitegames 2024 Wszelkie prawa zastrzeżone</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
