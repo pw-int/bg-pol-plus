@@ -1,10 +1,10 @@
-### Dimoco The Bitegames store Markup project ###
+### The Bitegames landing Markup project for Dimoco ###
 
 Markup project created by figma design.
 
-Demo 3g link [url](https://dubisoft-solutions.github.io/playwing-dimoco-bitegames/ "Demo 3g link")
+Demo 3g link [url](https://pw-int.github.io/bg-pol-plus/ "Demo 3g link")
 
-Demo otp link [url](https://dubisoft-solutions.github.io/playwing-dimoco-bitegames/otp.html "Demo otp link")
+Demo otp link [url](https://pw-int.github.io/bg-pol-plus/otp.html "Demo otp link")
 
 ## Project structure ##
 
