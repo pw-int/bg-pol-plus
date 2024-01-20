@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cz">
+//= html_partials/head.html
+
+<body class="index">
+    <main class="main">
+        <!-- Header -->
+        //= html_partials/header.html
+        <!-- Main section -->
+        <section class="hero pt-4 pb-5">
+            <div class="container">
+                <a href="index.html" class="btn-link text-decoration-none">
+                    <div class="d-flex align-items-center pb-4">
+                        <div class="icon-style rounded-circle d-flex justify-content-center align-items-center">
+                            <icon class="icon icon-prev text-dark fs-3 d-grid"></icon>
+                        </div>
+                        <p class="fs-1 mb-0 ps-2">Kontakt</p>
+                    </div>
+                </a>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-12">
+                        <p class="mb-4">
+                            Czy masz jakieś pytania dotyczące sklepu Bite Games? Udzielimy Ci dokładnych odpowiedzi! <br> Skontaktuj się z nami za pomocą poniższego formularza kontaktowego
+                        </p>
+
+                        <form id="contactUsForm" class="row needs-validation" novalidate>
+                            <div class="col-12 col-lg-6 mb-3 text-start">
+                                <label for="inputEmail" class="form-label">Adres e-mail</label>
+                                <input type="email" class="form-control" id="inputEmail" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3 text-start">
+                                <label for="inputPhone" class="form-label">Numer telefonu</label>
+                                <input type="tel" class="form-control" id="inputPhone" placeholder="+48XXXXXXXXX" required>
+                            </div>
+
+                            <div class="col-12 col-lg-6 mb-3 text-start">
+                                <label for="selectIssue" class="form-label">Wybierz problem</label>
+                                <select class="form-control" required>
+                                        <option value selected="selected">- - -</option> <!-- placeholder -->
+                                        <option value="Download or Installation issues">Problemy z pobraniem lub instalacją</option> 
+                                        <option value="Crash / Freeze / Loading issues">Awaria / zacinanie / problemy z wczytywaniem</option>
+                                        <option value="Gameplay issues">Problemy z rozgrywką</option>
+                                        <option value="Questions / Suggestions / Feedback">Pytania / sugestie / opinie</option>
+                                        <option value="Subscription / Unsubscription issues">Problemy z subskrypcją / rezygnacją z subskrypcji</option>
+                                        <option value="Service unavailability">Niedostępność usługi</option>
+                                        <option value="Other">Inne</option>
+                                      </select>
+                            </div>
+
+                            <div class="col-12 mb-4 text-start">
+                                <label for="textareaMessage" class="form-label">Komentarz</label>
+                                <textarea class="form-control" id="textareaMessage" rows="4" required></textarea>
+                            </div>
+
+                            <div class="col-12 mb-4">
+                                <div class="grecaptcha recaptcha-style" required></div>
+                            </div>
+
+                            <div class="col-8 text-center mx-auto my-5">
+                                <button type="submit" class="btn btn-success w-100">
+                                    Wysłać
+                                </button>
+                            </div>
+
+                            <div class="col-8 mb-3 text-center mx-auto">
+                                <label for="inputUser" class="form-label">Użytkownik:</label>
+                                <div class="bg-dark rounded-1 text-center p-3">
+                                    <a class="btn-link text-success">48783456069</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        //= html_partials/footer.html
+    </main>
+</body>
+
+//= html_partials/scripts.html
+
+</html>

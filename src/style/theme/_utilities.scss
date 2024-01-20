@@ -1,0 +1,21 @@
+body {
+    --bs-body-bg: #{$black};
+    --bs-body-color: #{$white};
+    margin: 0;
+    padding: 0;
+    font-family: " Inter", sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $white;
+}
+
+textarea {
+    resize: none;
+}
+
+.mw-64 {
+    min-width: 4rem;
+}

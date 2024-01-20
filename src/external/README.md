@@ -1,0 +1,1 @@
+This folder contains saved pages from the original stores. These pages are not a part of the project, we need them for demonstration only
