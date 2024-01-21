@@ -4,9 +4,9 @@ Markup project created by figma design.
 
 Figma link [url](https://www.figma.com/file/IEB7Jrddxwt8MwvwV9IBuH/Poland-Plus---Dimoco-(Mind%2B%26Bitegames)?type=design&node-id=0-1&mode=design&t=cOCnz4jCLlPtK1gx-0 "Figma link")
 
-Demo 3g link [url](https://pw-int.github.io/mindp-pol-plus/ "Demo 3g link")
+Demo 3g link [url](https://pw-int.github.io/bg-pol-plus/ "Demo 3g link")
 
-Demo otp link [url](https://pw-int.github.io/mindp-pol-plus/otp.html "Demo otp link")
+Demo otp link [url](https://pw-int.github.io/bg-pol-plus/otp.html "Demo otp link")
 
 ## Project structure ##
 
