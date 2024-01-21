@@ -11852,12 +11852,12 @@ textarea.form-control-lg {
   --bs-btn-border-radius: .25rem;
 }
 
-.btn-info {
+.btn-success {
   --bs-btn-hover-color: #FFFFFF;
   background: #00B262 !important;
   border: none;
 }
-.btn-info:focus, .btn-info:hover, .btn-info:active {
+.btn-success:focus, .btn-success:hover, .btn-success:active {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -1px 1px 7px 3px rgba(21, 153, 190, 0.44), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
   background-color: #00B262;
 }
@@ -11962,65 +11962,6 @@ textarea.form-control-lg {
   background-color: #FFFFFF;
 }
 
-.accordion-button {
-  font-weight: 500;
-  font-size: 0.875rem;
-  padding-top: 0;
-}
-.accordion-button:focus {
-  box-shadow: none;
-}
-.accordion-button::before {
-  display: inline-block;
-  font-family: "IconsFont";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  content: "\e003";
-  color: #FFFFFF;
-  font-size: 0.688rem;
-  background-image: none;
-  text-align: end;
-  align-self: start;
-  padding-left: 0.625rem;
-  padding-top: 2px;
-}
-.accordion-button[aria-expanded=true]::before {
-  content: "\e002";
-  text-align: end;
-}
-.accordion-button::after {
-  background-image: none;
-}
-
-.accordion-button:not(.collapsed) {
-  color: #FFFFFF;
-  box-shadow: none;
-}
-
-.accordion-button:not(.collapsed)::after {
-  background-image: none;
-}
-
-.accordion-item {
-  background: #171717;
-}
-.accordion-item.accordion-collapse.collapse.show {
-  background: #171717;
-}
-
-.accordion-body {
-  font-size: 0.75rem;
-}
-
-.accordion-flush {
-  border-color: #00B262;
-}
-
 body {
   --bs-body-bg: #171717;
   --bs-body-color: #FFFFFF;
@@ -12116,13 +12057,6 @@ p {
   height: 4px;
   background: linear-gradient(-90deg, rgba(174, 211, 0, 0) 0, #00B262 50.8%, rgba(174, 211, 0, 0) 100%);
   opacity: 0.9;
-}
-.main .recaptcha-style {
-  transform: scale(0.8);
-  -webkit-transform: scale(0.8);
-  transform-origin: 100% 0;
-  -webkit-transform-origin: 100% 0;
-  height: 8vh;
 }
 .main .icon-style {
   background-color: #FFFFFF;
