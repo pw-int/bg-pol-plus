@@ -11,32 +11,6 @@
     }
 }
 
-.input-holder {
-    position: relative;
-    width: 100%;
-    &::before {
-        content: " ";
-        display: inline;
-        width: .1rem;
-        height: 1.625rem;
-        background-color: #D9D9D9;
-        border-radius: .188rem;
-        position: absolute;
-        top: .688rem;
-        left: 3rem;
-    }
-    &::after {
-        content: "+48";
-        display: block;
-        font-weight: 500;
-        font-size: 1rem;
-        color: $gray;
-        position: absolute;
-        top: .688rem;
-        left: .75rem;
-    }
-}
-
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {
     box-shadow: none;
