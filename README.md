@@ -1,4 +1,4 @@
-### The Bitegames landing Markup project for Dimoco ###
+### BiteGames - [PL Plus] Markup project for Dimoco ###
 
 Markup project created by figma design.
 
