@@ -98,7 +98,7 @@
   --bs-font-sans-serif: "Inter";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: "Inter";
   --bs-body-font-size: 0.75rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -5702,7 +5702,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5804,7 +5804,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11941,7 +11941,6 @@ body {
   --bs-body-color: #FFFFFF;
   margin: 0;
   padding: 0;
-  font-family: " Inter", sans-serif;
 }
 
 a {
