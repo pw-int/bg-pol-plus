@@ -1,6 +1,7 @@
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: "Inter" !default;
+$font-family-sans-serif: "Inter";
+$font-family-base: $font-family-sans-serif;
 $font-weight-medium: 500;
 $container-padding-x: 2rem;
 $white: #FFFFFF;
